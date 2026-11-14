@@ -1,0 +1,22 @@
+{
+  "calibration_images": 1024,
+  "calibration_source": "training split only",
+  "observer": "HistogramObserver 2048 bins",
+  "activation": "uint8 affine per-tensor reduced observer range 0..127",
+  "weights": "int8 symmetric per-output-channel",
+  "backend": "fbgemm",
+  "calibration_class_counts": [
+    94,
+    108,
+    102,
+    98,
+    105,
+    107,
+    97,
+    95,
+    109,
+    109
+  ],
+  "seconds": 14.339334099999633,
+  "val_accuracy": 93.5
+}

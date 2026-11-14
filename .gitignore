@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+data/
+reproduction/
+artifacts/
+verification/
+report_work/
+*.zip
+*.gz
+*.7z
+*.tar
+.env

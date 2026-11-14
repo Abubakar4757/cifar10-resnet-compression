@@ -1,0 +1,9 @@
+{
+  "best_val_accuracy": 93.72,
+  "epochs": 6,
+  "epoch_seconds": 511.88468609799975,
+  "backend": "fbgemm",
+  "bn_frozen_from_epoch": 3,
+  "observers_frozen_from_epoch": 4,
+  "fake_quant_modules": 51
+}

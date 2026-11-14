@@ -1,0 +1,82 @@
+{
+  "project": "CIFAR-10 ResNet Compression",
+  "student": "Abubakar Bilal",
+  "roll": "22I-0450",
+  "section": "A",
+  "submission_format": "GitHub repository URL and separate PDF",
+  "requirement_file_mapping": {
+    "baseline": [
+      "models/baseline_fp32.pt",
+      "src/train.py",
+      "src/models.py",
+      "results/baseline_history.csv"
+    ],
+    "ptq": [
+      "src/ptq.py",
+      "src/calibrate.py",
+      "models/ptq_int8.pt",
+      "models/ptq_int8.onnx",
+      "results/calibration_indices.npy"
+    ],
+    "qat": [
+      "src/qat.py",
+      "src/finetune.py",
+      "models/qat_int8.pt",
+      "models/qat_int8.onnx",
+      "results/qat_history.csv"
+    ],
+    "unstructured": [
+      "src/prune_unstructured.py",
+      "models/unstructured_fp32.pt",
+      "models/unstructured_fp32.onnx",
+      "results/unstructured_summary.json"
+    ],
+    "structured": [
+      "src/prune_structured.py",
+      "models/structured_fp32.pt",
+      "models/structured_fp32.onnx",
+      "results/structured_summary.json"
+    ],
+    "inference": [
+      "src/infer.py",
+      "src/infer_onnx.py",
+      "examples/cifar10_test_0.png"
+    ],
+    "benchmark": [
+      "src/benchmark.py",
+      "results/benchmark_summary.csv",
+      "results/test_predictions.csv",
+      "results/latency_samples.csv"
+    ],
+    "onnx": [
+      "src/export_onnx.py",
+      "models/fp32_fp32.onnx",
+      "results/onnx_parity.csv",
+      "results/model_verification.json"
+    ],
+    "report": [
+      "docs/CIFAR10_ResNet_Compression_22I-0450_A.pdf",
+      "screenshots/01_successful_gpu_run.png",
+      "screenshots/02_completed_run.png"
+    ],
+    "reproducibility": [
+      "README.md",
+      "requirements.txt",
+      "src/run_all.py",
+      "SUBMISSION_CHECKLIST.md"
+    ]
+  },
+  "all_ten_deliverable_groups_present": true,
+  "five_checkpoints_and_five_onnx": true,
+  "no_submission_folder_archives": true,
+  "all_ten_fresh_cli_processes_passed": true,
+  "trained_sparse_tensors_bitwise_unchanged": true,
+  "prediction_rows": 100000,
+  "latency_samples": 9000,
+  "report_pages": 9,
+  "report_all_pages_visually_checked": true,
+  "report_plain_black_with_grayscale_figures": true,
+  "report_sha256": "6639c586e0986722e7a8d401ad64b60adc635f31c653bd0206973b8c65f8b12d",
+  "original_measurements_preserved": true,
+  "classroom_submission_performed": false
+}

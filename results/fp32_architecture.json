@@ -1,0 +1,17 @@
+{
+  "MACs_per_image": 555422720,
+  "weight_count": 11164352,
+  "zero_weights": 0,
+  "sparsity": 0.0,
+  "parameters": 11173962,
+  "hidden": [
+    64,
+    64,
+    128,
+    128,
+    256,
+    256,
+    512,
+    512
+  ]
+}

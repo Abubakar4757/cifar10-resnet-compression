@@ -1,0 +1,22 @@
+[
+  {
+    "script": "train.py",
+    "seconds": 1911.7940318789997
+  },
+  {
+    "script": "ptq.py",
+    "seconds": 43.86354079400007
+  },
+  {
+    "script": "qat.py",
+    "seconds": 520.4379916759999
+  },
+  {
+    "script": "prune_unstructured.py",
+    "seconds": 168.35808336400032
+  },
+  {
+    "script": "prune_structured.py",
+    "seconds": 112.74627853699985
+  }
+]

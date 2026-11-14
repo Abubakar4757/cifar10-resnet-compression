@@ -1,0 +1,20 @@
+{
+  "python": "3.13.16",
+  "torch": "2.11.0+cu130",
+  "torchvision": "0.26.0+cu130",
+  "onnx": "1.23.2",
+  "onnxruntime": "1.31.1",
+  "gpu": "Tesla T4",
+  "seed": 450,
+  "arguments": {
+    "data": "/kaggle/working/cifar10",
+    "output": "artifacts",
+    "results": "results",
+    "baseline_epochs": 50,
+    "qat_epochs": 6,
+    "pruning_epochs": 3,
+    "structured_epochs": 8,
+    "skip_benchmark": false,
+    "resume": false
+  }
+}

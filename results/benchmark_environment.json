@@ -1,0 +1,16 @@
+{
+  "python": "3.13.16",
+  "os": "Linux-6.18.55+-x86_64-with-glibc2.39",
+  "processor": "x86_64",
+  "physical_cores": 2,
+  "logical_cores": 4,
+  "ram_gib": 31.346595764160156,
+  "torch": "2.11.0+cu130",
+  "onnx": "1.23.2",
+  "onnxruntime": "1.31.1",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "backend": "fbgemm",
+  "timing": "one thread, batch one, no preprocessing, idle system, no contention workers"
+}

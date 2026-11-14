@@ -1,0 +1,87 @@
+[
+  {
+    "model": "fp32",
+    "native_file": "baseline_fp32.pt",
+    "native_bytes": 44775051,
+    "native_sha256": "0ba683ecc98917711b7e2b8b4283919122a9800a8029d6c67d59c584f50c6f15",
+    "onnx_file": "fp32_fp32.onnx",
+    "onnx_bytes": 44684894,
+    "onnx_sha256": "5e9e86e607431de36df1a1c2162e3343c689be319109453d2d93e1ed2d8046fd",
+    "int8_initializers": 0,
+    "quantize_dequantize_nodes": 0,
+    "output_shape": [
+      2,
+      10
+    ],
+    "finite_outputs": true,
+    "random_input_max_logit_difference": 1.9073486328125e-06
+  },
+  {
+    "model": "ptq",
+    "native_file": "ptq_int8.pt",
+    "native_bytes": 11417824,
+    "native_sha256": "d21305ecc1ff829691fe6a550d7b3556b446a082bb43ac8499f8559acb1bdc6d",
+    "onnx_file": "ptq_int8.onnx",
+    "onnx_bytes": 11225186,
+    "onnx_sha256": "72e8cf6546578cf5ec62937649e01d57bd3c23b8e5483355375ea28d4d73d256",
+    "int8_initializers": 42,
+    "quantize_dequantize_nodes": 83,
+    "output_shape": [
+      2,
+      10
+    ],
+    "finite_outputs": true,
+    "random_input_max_logit_difference": 0.17969346046447754
+  },
+  {
+    "model": "qat",
+    "native_file": "qat_int8.pt",
+    "native_bytes": 11417824,
+    "native_sha256": "9ec23db66ab3737a4205eead81067aeb723fee6224cb7d818d220b27738edf61",
+    "onnx_file": "qat_int8.onnx",
+    "onnx_bytes": 11225186,
+    "onnx_sha256": "f54610b5a7de2fb2a38c9b3507bac36a6b7f8bd41a11bc9dc8ac3e70cd1c7fae",
+    "int8_initializers": 42,
+    "quantize_dequantize_nodes": 83,
+    "output_shape": [
+      2,
+      10
+    ],
+    "finite_outputs": true,
+    "random_input_max_logit_difference": 0.18942999839782715
+  },
+  {
+    "model": "unstructured",
+    "native_file": "unstructured_fp32.pt.gz",
+    "native_bytes": 17022848,
+    "native_sha256": "30ada8a1dd55966e847e3d8ab73ce65273a562951224bd872bc68ebf6e293998",
+    "onnx_file": "unstructured_fp32.onnx",
+    "onnx_bytes": 44684894,
+    "onnx_sha256": "4aa2d569d6ba0604bdb3c0449365e51d55dfce3e6abdf16d199e77f18ee52e55",
+    "int8_initializers": 0,
+    "quantize_dequantize_nodes": 0,
+    "output_shape": [
+      2,
+      10
+    ],
+    "finite_outputs": true,
+    "random_input_max_logit_difference": 2.1457672119140625e-06
+  },
+  {
+    "model": "structured",
+    "native_file": "structured_fp32.pt",
+    "native_bytes": 28288459,
+    "native_sha256": "39856a24bc10a78d832e338a0374830159eb04ef17bc2d8f7d973cc2029d4ea9",
+    "onnx_file": "structured_fp32.onnx",
+    "onnx_bytes": 28203794,
+    "onnx_sha256": "f14b9fb9087015e6a85ddd9b54bcbdfc7ef8db6bb0634fa4c27441ae3ac3a005",
+    "int8_initializers": 0,
+    "quantize_dequantize_nodes": 0,
+    "output_shape": [
+      2,
+      10
+    ],
+    "finite_outputs": true,
+    "random_input_max_logit_difference": 1.9073486328125e-06
+  }
+]

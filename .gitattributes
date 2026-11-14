@@ -1,0 +1,7 @@
+* -text
+*.pt binary
+*.onnx binary
+*.pdf binary
+*.png binary
+*.npy binary
+*.npz binary

@@ -1,0 +1,82 @@
+{
+  "os": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.14",
+  "torch": "2.11.0+cpu",
+  "onnxruntime": "1.31.1",
+  "cpu_engine": "onednn",
+  "example_test_index": 0,
+  "true_class": "cat",
+  "all_ten_fresh_process_inference_commands_passed": true,
+  "predictions": [
+    {
+      "runtime": "pytorch",
+      "model": "fp32",
+      "class_index": 3,
+      "class_name": "cat",
+      "confidence": 0.9999984502792358
+    },
+    {
+      "runtime": "pytorch",
+      "model": "ptq",
+      "class_index": 3,
+      "class_name": "cat",
+      "confidence": 0.9999984502792358
+    },
+    {
+      "runtime": "pytorch",
+      "model": "qat",
+      "class_index": 3,
+      "class_name": "cat",
+      "confidence": 1.0
+    },
+    {
+      "runtime": "pytorch",
+      "model": "unstructured",
+      "class_index": 3,
+      "class_name": "cat",
+      "confidence": 0.9999970197677612
+    },
+    {
+      "runtime": "pytorch",
+      "model": "structured",
+      "class_index": 3,
+      "class_name": "cat",
+      "confidence": 0.9999978542327881
+    },
+    {
+      "runtime": "onnxruntime",
+      "model": "fp32",
+      "class_index": 3,
+      "class_name": "cat",
+      "confidence": 0.9999984502792358
+    },
+    {
+      "runtime": "onnxruntime",
+      "model": "ptq",
+      "class_index": 3,
+      "class_name": "cat",
+      "confidence": 0.9999984502792358
+    },
+    {
+      "runtime": "onnxruntime",
+      "model": "qat",
+      "class_index": 3,
+      "class_name": "cat",
+      "confidence": 1.0
+    },
+    {
+      "runtime": "onnxruntime",
+      "model": "unstructured",
+      "class_index": 3,
+      "class_name": "cat",
+      "confidence": 0.9999970197677612
+    },
+    {
+      "runtime": "onnxruntime",
+      "model": "structured",
+      "class_index": 3,
+      "class_name": "cat",
+      "confidence": 0.9999978542327881
+    }
+  ]
+}
